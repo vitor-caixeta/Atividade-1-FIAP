@@ -1,0 +1,249 @@
+body {
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    min-width: 80%;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.icons{
+   font-size: 40px;
+    padding-left: 800px;
+    padding-top: 30px;
+}
+
+.container {
+    margin: 20px ;
+}
+
+.row {
+    height: 78vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 130px;
+    height: auto;
+}
+
+.montsserat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.card {
+    margin-bottom: 200px;
+    max-width: 70rem;
+    border-radius: 20px;
+    position: relative;
+    height: 35rem;
+    flex: 1;
+    align-items: center;
+    
+
+    text-align: center;
+
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+section h2{
+    margin-top: 220px;
+}
+
+section p{
+    padding-top: 10px;
+}
+
+.social-media {
+    font-size: 40px;
+    padding-left: 800px;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+
+.social-media :hover{
+    transform: scale(1.1);
+}
+
+.box-img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.fotocard {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 12rem;
+   
+}
+
+.gap {
+    gap: 40px;
+}
+
+.boxbutton {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.buttonfiap {
+    background-color: #ed0f63;
+    border-radius: 5px;
+    padding: 7px;
+    transform: scale(1.1);
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    p {
+        margin-left: 40px;
+        color: white;
+    }
+}
+
+@media (max-width: 1050px) {
+    .row {
+        height: 100%;
+    }
+
+    .card {
+        margin-top: 60px;
+        flex: 100%;
+        max-width: 40rem;
+        height: 740px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        p {
+            margin-left: 0px;
+            color: white;
+        }
+    }
+    .container{
+        flex-direction: column;
+
+    }
+
+    section h2{
+        margin-top: 210px;
+    }
+    
+    section p{
+        padding-top: 10px;
+    }
+
+    .social-media {
+        font-size: 30px;
+        flex-direction: column;
+        padding-left: 230px;
+    }
+
+    .fotocard{
+        margin-bottom: 15px;
+    }
+
+    .boxbutton {
+        padding: 5px;
+    }
+
+}
+
+
+
+
+@media (max-width: 800px) {
+    .row {
+        height: 100%;
+    }
+
+    .card {
+        margin-top: 60px;
+        flex: 100%;
+        max-width: 22rem;
+        height: auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        p {
+            margin-left: 0px;
+            color: white;
+        }
+    }
+    .container{
+        flex-direction: column;
+    }
+
+    .social-media {
+        font-size: 30px;
+        flex-direction: column;
+        padding-left: 270px;
+    }
+
+    .gap {
+        gap: 20px;
+    }
+
+    section h2{
+        margin-top: 250px;
+    }
+    
+    section p{
+        padding-top: 15px;
+    }
+    
+}

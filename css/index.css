@@ -1,0 +1,166 @@
+body{
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    margin: 20px;
+}
+
+.row{
+    height: 78vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    margin-left: 10px;
+    width: 130px;
+    height: auto;
+}
+
+.montsserat{
+    font-family: "Montserrat", sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 18rem;
+    width: auto;
+    border-radius: 20px;
+    position: relative;
+
+    flex: 1;
+
+    text-align: center;
+
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card h3{
+    padding-top: 120px;
+}
+
+.box-img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fotocard {
+    width: 160px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.gap{
+    gap: 40px;
+}
+
+.boxbutton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.buttonfiap{
+    background-color: #ed0f63;
+    border-radius: 5px;
+    padding: 7px;
+
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    p{
+        margin-left: 40px;
+        color: white;
+    }
+}
+
+@media (max-width: 1050px){
+    .row{
+        height: 100%;
+    }
+    
+    .card{
+        margin-top: 60px;
+        flex: 100%;
+        max-width: 20rem;
+    }
+
+    header{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 0; 
+        padding: 0;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center; 
+        margin: 0; 
+        padding: 0;
+    }
+
+    footer{
+        p{
+            margin-left: 0px;
+            color: white;
+        }
+    }
+}
+
+
+@media (max-width: 800px){
+    .row{
+        height: 100%;
+    }
+
+    .card{
+        margin-top: 60px;
+        flex: 100%;
+        max-width: 30rem;
+    }
+
+    header{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 0; 
+        padding: 0;
+    }
+
+    footer{
+        display: flex;
+        margin: 0; 
+        padding: 0;
+    }
+
+    footer{
+        p{
+            margin-left: 0px;
+            color: white;
+        }
+    }
+}
